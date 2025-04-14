@@ -337,3 +337,39 @@ button {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px; /* Más espacio desde el borde inferior */
+    left: 30px; /* Cambia la posición al lado derecho */
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-to-top:hover {
+    background-color: #555; /* Cambia el fondo al pasar el mouse */
+    transform: translateY(-5px); /* Efecto de elevación */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-to-top:active {
+    transform: translateY(0); /* Vuelve a su posición original al hacer clic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top::before {
+    content: "↑"; /* Flecha hacia arriba */
+    font-size: 1.8rem;
+    font-weight: bold;
+}
