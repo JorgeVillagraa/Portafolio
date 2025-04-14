@@ -222,3 +222,56 @@
     color: #007bff; /* Color azul para los íconos */
     font-size: 1.5rem;
 }
+
+.Contactame {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+.Contactame h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a:hover {
+    color: #fff;
+    background-color: #007bff; /* Cambia el fondo al pasar el mouse */
+    border-color: #007bff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.social-links svg {
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    color: #007bff; /* Color de los iconos */
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover svg {
+    color: #fff; /* Cambia el color del icono al pasar el mouse */
+}
