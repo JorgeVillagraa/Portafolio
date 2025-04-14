@@ -1,8 +1,8 @@
 import React from "react";
-import { FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaEnvelope,FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className="Contactame" id="Contactame">
+        <div className="Contactame" id="contacto">
         <h2>Contáctame</h2>
         <div className="social-links">
             <a href="https://www.instagram.com/jorge.villagraa/" target="_self" rel="noopener noreferrer">
@@ -14,6 +14,10 @@ const Footer = () => {
             <a href="JorgeVillagra551@gmail.com" target="_self" rel="noopener noreferrer">
                 <FaEnvelope /> Gmail
             </a>
+            <a href="https://github.com/jorgevillagraa" target="_self" rel="noopener noreferrer">
+                <FaGithub /> GitHub
+            </a>
+            <p className="copyright">© 2023 Jorge Villagra. Todos los derechos reservados.</p>
         </div>
     </div>
     );

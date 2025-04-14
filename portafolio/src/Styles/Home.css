@@ -66,6 +66,33 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.work-experience {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    margin: 2rem auto;
+    margin-bottom: 100px;
+    max-width: 800px;
+    text-align: justify;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.work-experience p {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: justify;
+}
+
 .Main {
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -274,4 +301,39 @@
 
 .social-links a:hover svg {
     color: #fff; /* Cambia el color del icono al pasar el mouse */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .pheader{
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+.copyright {
+    font-size: 0.9rem;
+    color: #777;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

@@ -14,6 +14,16 @@ const Main = () => {
                 </p>
             </section>
 
+            <section className="work-experience" id="work-experience">
+                <h1>Experiencia Laboral</h1>
+                <p>
+                    Aunque aún no tengo experiencia laboral como programador, actualmente trabajo en una cadena de comida rápida. 
+                    Este trabajo me ha permitido desarrollar habilidades importantes como el trabajo en equipo, la gestión del tiempo, 
+                    la resolución de problemas bajo presión y la atención al cliente. Estas habilidades son transferibles y me ayudarán 
+                    a enfrentar los desafíos en el mundo de la programación mientras continúo con mis estudios.
+                </p>
+            </section>
+
             <section className="projects" id="projects">
                 <h1>Proyectos</h1>
                 <p>
